@@ -1,0 +1,390 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1726777735615799, "dur":11780, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726777735627643, "dur":569, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726777735629297, "dur":144, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726777735628224, "dur":1968, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726777735630193, "dur":877391, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726777736507585, "dur":473, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726777736508279, "dur":1146, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1726777735627959, "dur":2243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726777735630204, "dur":654, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726777735630858, "dur":2639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726777735633504, "dur":1713, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726777735633498, "dur":1720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726777735635373, "dur":5030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726777735640432, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mcsta\\Apple Picker\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726777735640431, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726777735640549, "dur":4950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726777735645541, "dur":5110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726777735650686, "dur":9034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726777735659759, "dur":9413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726777735669206, "dur":4147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1726777735673386, "dur":834368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726777735627955, "dur":2244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726777735630201, "dur":3169, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726777735634197, "dur":363, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1726777735634563, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1726777735634622, "dur":12414, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1726777735647037, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1726777735647164, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777735647403, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf7d3f64b-inputdata.json" }}
+,{ "pid":12345, "tid":2, "ts":1726777735647477, "dur":41874, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777735689352, "dur":320, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777735689673, "dur":130752, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777735820427, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777735820528, "dur":401, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777735820930, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":2, "ts":1726777735821075, "dur":60455, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777735881532, "dur":31174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777735912708, "dur":94207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736006917, "dur":80167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736087085, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736087171, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736087324, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
+,{ "pid":12345, "tid":2, "ts":1726777736087419, "dur":5276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736092697, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736092758, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736092812, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736092964, "dur":90664, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736183630, "dur":27169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736210801, "dur":63015, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736273817, "dur":35259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736309078, "dur":26299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736335379, "dur":35182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736370563, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736370636, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736370758, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777736370885, "dur":72997, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726777735634562, "dur":809324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1726777736444021, "dur":60886, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1726777736506989, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1726777736506988, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1726777736507054, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1726777735628053, "dur":2168, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726777735630222, "dur":641, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726777735630864, "dur":2586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726777735633451, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1726777735635121, "dur":4851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1726777735640010, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726777735640009, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726777735640134, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726777735643454, "dur":254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mcsta\\Apple Picker\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726777735643454, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726777735643713, "dur":5480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726777735649228, "dur":8631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726777735657907, "dur":8959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726777735666900, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1726777735669083, "dur":4259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1726777735673390, "dur":834348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726777735628031, "dur":2175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726777735630208, "dur":785, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726777735630993, "dur":2431, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726777735633425, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1726777735654599, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1726777735656703, "dur":8825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726777735665547, "dur":79373, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726777735665547, "dur":79375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726777735744942, "dur":9107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726777735754068, "dur":753656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726777735628066, "dur":2218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726777735630288, "dur":737, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726777735631025, "dur":2369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726777735633399, "dur":13038, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1726777735633395, "dur":13044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1726777735646496, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1726777735647664, "dur":8829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726777735656561, "dur":8495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726777735665081, "dur":8860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726777735673988, "dur":833793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726777735628422, "dur":2154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726777735630576, "dur":2877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726777735633461, "dur":13809, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1726777735633454, "dur":13817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1726777735647321, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1726777735648147, "dur":8494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726777735656701, "dur":8825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726777735665577, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1726777735666601, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1726777735668517, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1726777735671550, "dur":836044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726777735628100, "dur":2244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726777735630350, "dur":707, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726777735631057, "dur":2320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726777735633385, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1726777735643359, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1726777735644475, "dur":5926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726777735650490, "dur":8375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726777735658910, "dur":8728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726777735667807, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1726777735669063, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1726777735672880, "dur":834755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726777735628124, "dur":2274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726777735630401, "dur":633, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726777735631034, "dur":2425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726777735633471, "dur":16062, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1726777735633460, "dur":16075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1726777735649550, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1726777735650955, "dur":9172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726777735660161, "dur":9065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726777735669256, "dur":5259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1726777735674549, "dur":833096, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726777735628144, "dur":2271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726777735630416, "dur":534, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726777735630950, "dur":2433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726777735633384, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1726777735650493, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1726777735651897, "dur":8784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726777735660714, "dur":9599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726777735670352, "dur":837243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726777735628159, "dur":2284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726777735630443, "dur":2931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726777735633385, "dur":59980, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1726777735633377, "dur":59989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1726777735693377, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1726777735694462, "dur":813270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726777735628187, "dur":2325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726777735630513, "dur":2950, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726777735633464, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1726777735635392, "dur":4471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1726777735639906, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726777735639905, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726777735640021, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726777735642553, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mcsta\\Apple Picker\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726777735642552, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726777735642844, "dur":6070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726777735648963, "dur":8649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726777735657663, "dur":8778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726777735666490, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1726777735668011, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/level3.resS" }}
+,{ "pid":12345, "tid":11, "ts":1726777735670391, "dur":837398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726777735628210, "dur":2312, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726777735630522, "dur":2851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726777735634239, "dur":520, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1726777735634761, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1726777735635347, "dur":4779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1726777735640129, "dur":867, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726777735640127, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726777735641005, "dur":6288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726777735647347, "dur":6984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726777735654397, "dur":8844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726777735663298, "dur":9851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726777735673195, "dur":834557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1726777735628227, "dur":2300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1726777735630528, "dur":2960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1726777735633497, "dur":2954, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726777735633489, "dur":2964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726777735636464, "dur":4820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726777735641320, "dur":438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mcsta\\Apple Picker\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726777735641320, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726777735641776, "dur":5950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726777735647759, "dur":7810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726777735655616, "dur":7928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726777735663577, "dur":10052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1726777735673702, "dur":833948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1726777735628710, "dur":1930, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1726777735630641, "dur":2845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1726777735633489, "dur":33210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":14, "ts":1726777735633486, "dur":33215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker.exe" }}
+,{ "pid":12345, "tid":14, "ts":1726777735666712, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker.exe" }}
+,{ "pid":12345, "tid":14, "ts":1726777735667961, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1726777735670590, "dur":837059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1726777735628257, "dur":2275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1726777735630532, "dur":2843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1726777735633384, "dur":29342, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":15, "ts":1726777735633377, "dur":29350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":15, "ts":1726777735662862, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":15, "ts":1726777735663572, "dur":10176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1726777735673791, "dur":833954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1726777735628279, "dur":2258, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1726777735630537, "dur":2918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1726777735633456, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1726777735635339, "dur":4805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1726777735640195, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726777735640194, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726777735640374, "dur":4827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726777735645277, "dur":5771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726777735651084, "dur":9456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726777735660574, "dur":9169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1726777735669769, "dur":837879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1726777735628309, "dur":2233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1726777735630542, "dur":2907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1726777735633465, "dur":11504, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1726777735633450, "dur":11521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1726777735644984, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1726777735646104, "dur":5623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726777735651793, "dur":9278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726777735661137, "dur":10228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1726777735671389, "dur":836386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1726777735628327, "dur":2220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1726777735630547, "dur":2901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1726777735633448, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1726777735635321, "dur":4830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1726777735640212, "dur":430, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":18, "ts":1726777735640210, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":18, "ts":1726777735640663, "dur":5769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":18, "ts":1726777735646503, "dur":6595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1726777735653146, "dur":9069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1726777735662270, "dur":9917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1726777735672214, "dur":835580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1726777735628341, "dur":2211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1726777735630552, "dur":2954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1726777735633517, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735633507, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735635311, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735640072, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735640071, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735640194, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735644217, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mcsta\\Apple Picker\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735644215, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735644322, "dur":5809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735650182, "dur":8341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735658556, "dur":8859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1726777735667475, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":19, "ts":1726777735669682, "dur":4298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":19, "ts":1726777735674020, "dur":833763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1726777735628367, "dur":2192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1726777735630559, "dur":2914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1726777735633474, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1726777735635798, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1726777735639808, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726777735639807, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726777735639984, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726777735642341, "dur":472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mcsta\\Apple Picker\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726777735642340, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726777735642824, "dur":5482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726777735648350, "dur":8394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726777735656794, "dur":8416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726777735665247, "dur":8517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1726777735673790, "dur":833832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1726777735628377, "dur":2186, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1726777735630563, "dur":2918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1726777735633487, "dur":58984, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1726777735633481, "dur":58992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1726777735692545, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1726777735694797, "dur":812888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1726777735628395, "dur":2171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1726777735630567, "dur":2884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1726777735633454, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":22, "ts":1726777735635544, "dur":4436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":22, "ts":1726777735640025, "dur":428, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":22, "ts":1726777735640024, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":22, "ts":1726777735640465, "dur":4656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":22, "ts":1726777735645164, "dur":5305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1726777735650526, "dur":8669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1726777735659225, "dur":8705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1726777735667965, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/resources.assets" }}
+,{ "pid":12345, "tid":22, "ts":1726777735669972, "dur":837610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1726777735628081, "dur":2249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1726777735630333, "dur":652, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1726777735630985, "dur":2517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1726777735633510, "dur":590, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735633504, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735635288, "dur":4446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735639799, "dur":232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735639798, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735640120, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735643531, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mcsta\\Apple Picker\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735643531, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735643665, "dur":5246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735648951, "dur":8641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735657645, "dur":9102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1726777735666780, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":23, "ts":1726777735668871, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/level2" }}
+,{ "pid":12345, "tid":23, "ts":1726777735671669, "dur":836098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1726777735628436, "dur":2191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1726777735630627, "dur":2849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1726777735633480, "dur":36813, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":24, "ts":1726777735633476, "dur":36818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":24, "ts":1726777735670447, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":24, "ts":1726777735671941, "dur":835697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1726777735628455, "dur":2177, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1726777735630632, "dur":2902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1726777735633547, "dur":281, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735633537, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735635234, "dur":4496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735639771, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735639769, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735639984, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735641447, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mcsta\\Apple Picker\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735641446, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735641517, "dur":5196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735646760, "dur":6185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735652980, "dur":9052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735662087, "dur":9322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1726777735671434, "dur":836336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1726777735628481, "dur":2155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1726777735630637, "dur":2901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1726777735633548, "dur":326, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726777735633539, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726777735635201, "dur":4536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726777735639769, "dur":992, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726777735639768, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726777735640776, "dur":5601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726777735646443, "dur":6405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726777735652908, "dur":8737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726777735661682, "dur":9269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1726777735670978, "dur":836800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1726777735628558, "dur":2190, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1726777735630748, "dur":2689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1726777735633438, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":27, "ts":1726777735655109, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":27, "ts":1726777735656859, "dur":8419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726777735665327, "dur":8687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1726777735674040, "dur":833545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1726777735628579, "dur":2161, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1726777735630740, "dur":2695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1726777735633441, "dur":15838, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":28, "ts":1726777735633436, "dur":15845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":28, "ts":1726777735649290, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":28, "ts":1726777735650547, "dur":8972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726777735659571, "dur":9200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1726777735668829, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/level2.resS" }}
+,{ "pid":12345, "tid":28, "ts":1726777735671991, "dur":835639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1726777735628594, "dur":2052, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1726777735630646, "dur":2848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1726777735633501, "dur":1829, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726777735633494, "dur":1837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726777735635382, "dur":4903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726777735640309, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726777735640309, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726777735640432, "dur":3817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726777735644307, "dur":5120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726777735649467, "dur":9076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726777735658576, "dur":8533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1726777735667157, "dur":2060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":29, "ts":1726777735669245, "dur":4391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/level0" }}
+,{ "pid":12345, "tid":29, "ts":1726777735673691, "dur":834072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1726777735628664, "dur":1980, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1726777735630644, "dur":2843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1726777735633487, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":30, "ts":1726777735635351, "dur":4837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":30, "ts":1726777735640225, "dur":308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":30, "ts":1726777735640224, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":30, "ts":1726777735640547, "dur":4861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":30, "ts":1726777735645477, "dur":5692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1726777735651217, "dur":9180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1726777735660435, "dur":9104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1726777735669572, "dur":4303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":30, "ts":1726777735673900, "dur":833856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1726777735628675, "dur":1968, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1726777735630643, "dur":2803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1726777735633457, "dur":12194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":31, "ts":1726777735633447, "dur":12206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":31, "ts":1726777735645662, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":31, "ts":1726777735646573, "dur":6160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726777735652786, "dur":8881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726777735661699, "dur":9305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1726777735671049, "dur":836531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1726777735628688, "dur":1953, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1726777735630641, "dur":2803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1726777735633445, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":32, "ts":1726777735635419, "dur":4568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":32, "ts":1726777735640034, "dur":1304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726777735640033, "dur":1306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/applepicker/Apple Picker_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726777735641346, "dur":5996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726777735647427, "dur":7844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726777735655326, "dur":7965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726777735663324, "dur":9276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/applepicker/Apple Picker_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1726777735672627, "dur":835133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726777736510837, "dur":730, "ph":"X", "name": "ProfilerWriteOutput" }
+,
